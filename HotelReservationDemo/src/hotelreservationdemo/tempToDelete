@@ -1,0 +1,124 @@
+/*
+Program : Hotel Reservation Demo 
+Programmer : Rosemol Thanjappan
+Date : 3/31/2019
+ */
+package hotelreservationdemo;
+
+import java.util.Scanner;
+
+
+/**
+ *
+ * @author Rosemol
+ */
+public class HotelReservationDemo {
+
+    /**
+     * @param args the command line arguments
+     */
+    
+    static Scanner input=new Scanner(System.in);
+    public static void main(String[] args) {
+        
+        
+        HotelReservationJFrame frame= new HotelReservationJFrame();
+        
+        frame.setVisible(true);
+//        Hotel hotel=new Hotel();
+//        Hotel hotel1=new Hotel();
+//        System.out.println(" Comparing hotels : "+ hotel.equals(hotel1));
+//        String choice ="y";
+//        do{
+//            int c=showMenu();
+//            int num,iValue;
+//            //System.out.println("Menu choice : "+c);
+//            switch(c){
+//                case 1:
+//                    //1.Book a reservation.
+//                    Reservation r=hotel.bookHotelRoom();
+//                    break;
+//                case 2:
+//                    //Display all reservations.
+//                    System.out.println("\n\n"+hotel.reservations);
+//                    break;
+//                case 3:
+//                    //3.Guest check-in.
+//                    System.out.print("Please enter the reservation number : ");
+//                    num=input.nextInt();
+//                    iValue=hotel.checkIn(num);
+//                    if(iValue==-1){
+//                        System.out.println("The reservation with reservation number "+
+//                                num+" doesn't exists.");
+//                        
+//                    }else if(iValue==0){
+//                        System.out.println("The guest with registration number "+
+//                                num+" is successfully checked in.");
+//                    }else if(iValue==1){
+//                        System.out.println("The guest with registration number "+
+//                                num+" is already checked in.");
+//                    }
+//                    break;
+//                case 4:
+//                    //4.Guest check-out.
+//                    System.out.print("Please enter the reservation number : ");
+//                    num=input.nextInt();
+//                    iValue=hotel.checkOut(num);
+//                    if(iValue==-1){
+//                        System.out.println("The reservation with reservation number "+
+//                                num+" doesn't exists.");
+//                        
+//                    }else if(iValue==0){
+//                        System.out.println("The guest with registration number "+
+//                                num+" is successfully checked out.");
+//                    }else if(iValue==-2){
+//                        System.out.println("The guest with registration number "+
+//                                num+" is not checked in yet.");
+//                        System.out.println("Please do check in first.");
+//                    }
+//                    break;
+//                default:
+//                    return;
+//            }
+//            
+//            choice=input.nextLine();
+//            System.out.print("\nDo you want to continue(Y/N) ? ");
+//            choice=input.nextLine();
+//
+//        }while(choice.toUpperCase().compareTo("N")!=0);
+//        System.out.println("\n\n\n Comparing hotels : "+ hotel.equals(hotel1));
+////        for(int i=0;i<hotel.rooms.size();i++){
+////            HotelRoom room=hotel.rooms.get(i);
+////            room.setIsVacant(false);
+////            //System.out.print(room);
+////        }
+////        try {
+////            System.out.println(hotel.hasVacancy());
+////        } catch (NoVacancyException ex) {
+////            System.out.println(ex.getMessage());
+////        }
+//        //System.out.println("\n\n"+hotel.reservations);
+//    }
+//    
+//    public static int showMenu(){
+//        System.out.println("The main menu");
+//        System.out.println("Select one option.");
+//        System.out.println("1.Book a reservation.");
+//        System.out.println("2.Display all reservations.");
+//        System.out.println("3.Guest check-in.");
+//        System.out.println("4.Guest check-out.");
+//        System.out.println("5.Exit.");
+//        System.out.print("Please choose an option between(1 and 5)===> ");
+//        int choice=input.nextInt();
+//        while(choice<1 || choice >5){
+//            System.out.print("Error : please choose an option between(1 and 5)===> ");
+//            choice=input.nextInt();
+//        }
+//        return choice;
+//        
+    }
+    
+    
+    
+    
+}
